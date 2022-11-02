@@ -1,0 +1,52 @@
+{
+  "countries": [
+    {
+      "name": "Thailand",
+      "id": "1",
+      "description": "Thailand, historically known as Siam and officially the Kingdom of Thailand, is a country in Southeast Asia, located at the centre of the Indochinese Peninsula, spanning 513,120 square kilometres (198,120 sq mi), with a population of almost 70 million. The country is bordered to the north by Myanmar and Laos, to the east by Laos and Cambodia, to the south by the Gulf of Thailand and Malaysia, and to the west by the Andaman Sea and the extremity of Myanmar. Thailand also shares maritime borders with Vietnam to the southeast, and Indonesia and India to the southwest. Bangkok is the nation's capital and largest city.",
+      "cost": "$2000",
+      "duration": "5 Days",
+      "img": "../images/Thailand.jpg"
+    },
+    {
+      "name": "Japan",
+      "id": "2",
+      "description": "Japan is an island country in East Asia. It is situated in the northwest Pacific Ocean, and is bordered on the west by the Sea of Japan, while extending from the Sea of Okhotsk in the north toward the East China Sea, Philippine Sea, and Taiwan in the south. Japan is a part of the Ring of Fire, and spans an archipelago of 6852 islands covering 377,975 square kilometers (145,937 sq mi); the five main islands are Hokkaido, Honshu, Shikoku, Kyushu, and Okinawa. Tokyo is the nation's capital and largest city, followed by Yokohama, Osaka, Nagoya, Sapporo, Fukuoka, Kobe, and Kyoto. Japan is the eleventh most populous country in the world, as well as one of the most densely populated and urbanized. About three-fourths of the country's terrain is mountainous, concentrating its population of 123.2 million on narrow coastal plains. Japan is divided into 47 administrative prefectures and eight traditional regions. The Greater Tokyo Area is the most populous metropolitan area in the world, with more than 35.6 million residents.",
+      "cost": "$1200",
+      "duration": "5 Days",
+      "img": "../images/Japan.jpg"
+    },
+    {
+      "name": "China",
+      "id": "3",
+      "description": "China, officially the People's Republic of China (PRC), is a country in East Asia. It is the world's most populous country with a population exceeding 1.4 billion people.China spans five geographical time zones and borders fourteen countries by land, the most of any country in the world, tied with Russia. China also has a narrow maritime boundary with the disputed Taiwan.Covering an area of approximately 9.6 million square kilometers (3,700,000 sq mi), it is the world's third largest country by total land area.The country consists of 23 provinces,five autonomous regions, four municipalities, and two Special Administrative Regions (Hong Kong and Macau). The national capital is Beijing, and the most populous city and financial center is Shanghai.",
+      "cost": "$1000",
+      "duration": "5 Days",
+      "img": "../images/China.jpg"
+    },
+    {
+      "name": "South Korea",
+      "id": "4",
+      "description": "South Korea, officially the Republic of Korea (ROK),is a country in East Asia, constituting the southern part of the Korean Peninsula and sharing a land border with North Korea.Its western border is formed by the Yellow Sea, while its eastern border is defined by the Sea of Japan. South Korea claims to be the sole legitimate government of the entire peninsula and adjacent islands. It has a population of 51.75 million, of which roughly half live in the Seoul Capital Area, the fourth most populous metropolitan area in the world. Other major cities include Incheon, Busan, and Daegu.",
+      "cost": "$1300",
+      "duration": "5 Days",
+      "img": "../images/Seoul.jpg"
+    },
+    {
+      "name": "Philippines",
+      "id": "5",
+      "description": "The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. It is situated in the western Pacific Ocean and consists of around 7,641 islands that are broadly categorized under three main geographical divisions from north to south: Luzon, Visayas, and Mindanao. The Philippines is bounded by the South China Sea to the west, the Philippine Sea to the east, and the Celebes Sea to the southwest. It shares maritime borders with Taiwan to the north, Japan to the northeast, Palau to the east and southeast, Indonesia to the south, Malaysia to the southwest, Vietnam to the west, and China to the northwest. The Philippines covers an area of 300,000 km2 (120,000 sq mi) and, as of 2021, it had a population of around 109 million people, making it the world's thirteenth-most populous country. The Philippines has diverse ethnicities and cultures throughout its islands. Manila is the country's capital, while the largest city is Quezon City; both lie within the urban area of Metro Manila.",
+      "cost": "$1700",
+      "duration": "5 Days",
+      "img": "../images/Philipines.jpg"
+    },
+    {
+      "name": "India",
+      "id": "6",
+      "description": "India, officially the Republic of India (Hindi: Bhārat Gaṇarājya),is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west; China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar, and Indonesia. The nation's capital city is New Delhi.",
+      "cost": "$800",
+      "duration": "5 Days",
+      "img": "../images/India.jpg"
+    }
+  ]
+}

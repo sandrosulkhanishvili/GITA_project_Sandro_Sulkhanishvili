@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="decription" content="TravelToAsia" />
+    <meta name="google" content="notranslate" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../script.js"></script>
+    <title>South Korea</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">
+            <a href="/index.html">Travel To Asia</a>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../aboutPage.html">About Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div id="countries"></div>
+
+      <footer class="footerAbout">
+        <div class="footer-contact-div">
+          <h2>Contact Us:</h2>
+          <div class="icon-div">
+            <i class="fas fa-phone-alt displain-inline-block"></i>
+            <a href="tel:+995 32 222 222"> +995 32 222 222</a>
+          </div>
+          <div class="icon-div">
+            <i class="fas fa-envelope displain-inline-block"></i>
+            <a href="mailto:name@rapidtables.com?subject=send your mail"
+              >sandro.sulkhanishvili@gmail.com
+            </a>
+          </div>
+          <div class="icon-div">
+            <i class="fas fa-search-location"></i>
+            <span>10 Gvazauri St, Tbilisi 0193</span>
+          </div>
+          <p class="social-p">follow us:</p>
+          <div class="social-div">
+            <ul class="social-ul">
+              <li class="social-li display-inline-block">
+                <i class="fab fa-facebook-f block-icon icons"></i>
+              </li>
+              <li class="social-li display-inline-block block-icon icons">
+                <i class="fab fa-instagram"></i>
+              </li>
+              <li class="social-li display-inline-block block-icon">
+                <i class="fab fa-twitter icons"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="footer-ul footer-ul1">
+          <li><span class="color-li">Trip by Interest</span></li>
+          <li>All-Inclusive specials</li>
+          <li>Destination wedding specials</li>
+          <li>Family vacation specials</li>
+          <li>Honeymoon specials</li>
+          <li>Couple & Romance specials</li>
+          <li>Golf travel specials</li>
+          <li><a href="#">See More ></a></li>
+        </ul>
+        <ul class="footer-ul footer-ul-2">
+          <li><span class="color-li">Curated Travel Specials</span></li>
+          <li>Cruises</li>
+          <li>Hotels & Resorts</li>
+          <li>Vacation Packages</li>
+          <li>Car Packages</li>
+          <li>Travel Inspiration</li>
+          <li><a href="">View All Specials ></a></li>
+        </ul>
+        <ul class="footer-ul footer-ul-3">
+          <li><span class="color-li">About the Company</span></li>
+          <li>About Us</li>
+          <li>Why Choose Us</li>
+          <li>News Releases</li>
+          <li>Terms & Privacy Policy</li>
+        </ul>
+      </footer>
+    </div>
+    <script>
+      $.getJSON("../data.json", function (data) {
+        var countries = "";
+        var countriesData = [];
+        countriesData = data.countries;
+
+        var findCountry = countriesData.filter((curr) => curr.id === "4");
+        console.log(findCountry);
+        countries += "<div class='countryWrapper'>";
+        countries += "<img src =" + findCountry[0].img + ">";
+
+        countries += "<div class = 'countryTextWrapper'>";
+        countries +=
+          "<h1> <strong>Country:</strong> " + findCountry[0].name + "</h1>";
+        countries +=
+          "<p> <strong>Info:</strong> " + findCountry[0].description + "</p>";
+        countries +=
+          "<p> <strong>Duration:</strong> " + findCountry[0].duration + "</p>";
+        countries +=
+          "<p> <strong>Price:</strong> " + findCountry[0].cost + "</p>";
+        countries += "</div>";
+        countries += "</div>";
+
+        $("#countries").append(countries);
+      });
+    </script>
+  </body>
+</html>

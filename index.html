@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="decription" content="TravelToAsia" />
+    <meta name="google" content="notranslate" />
+    <title>Travel To Asia</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">
+            <a href="#">Travel To Asia</a>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="./aboutPage.html">About Us</a></li>
+              <li><a href="#offers">Best Offers</a></li>
+              <li><a href="#Quick-Questions">Questions</a></li>
+              <li><a href="#Opinions">Opinions</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <section class="main-page-section">
+      <form class="land-page-form">
+        <div class="land-page-div">
+          <div class="find-adventure">
+            <label class="d-block">find an adventure</label>
+            <input
+              class="d-block"
+              type="search"
+              name="search-direction"
+              placeholder="Search Distination"
+            />
+          </div>
+          <div class="activity">
+            <label class="d-block">Activity</label>
+            <select class="d-block">
+              <option>Multy-Country Holidays</option>
+              <option>Winter Holidays</option>
+              <option>Couple Journey</option>
+              <option>Family</option>
+              <option>All Activities</option>
+            </select>
+          </div>
+          <div class="departs-between">
+            <label class="d-block">departs between</label>
+            <input type="date" name="date" />
+            <span style="font-size: 30px">&#8594;</span>
+            <input type="date" name="date" />
+          </div>
+          <div class="landing-page-buttom">
+            <button value="button">Search</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section id="offers" class="section-box">
+      <h1 class="offers-h1">The Best Offers</h1>
+      <div class="display-flex">
+        <div class="div-box">
+          <img class="div-box-img" src="images/Thailand.jpg" alt="Thailand" />
+          <h3 class="div-box-h3">Thailand</h3>
+          <p class="div-box-p">Costs from $2000</p>
+          <p class="div-box-p">Duration: 5 Days</p>
+          <a href="./countryPages/thailandPage.html">
+            <button class="see-more-button" value="button">See More</button>
+          </a>
+        </div>
+        <div class="div-box">
+          <img class="div-box-img" src="images/Japan.jpg" alt="Japan" />
+          <h3 class="div-box-h3">Japan</h3>
+          <p class="div-box-p">Costs from $1200</p>
+          <p class="div-box-p">Duration: 5 Days</p>
+          <a href="./countryPages/japanPage.html">
+            <button class="see-more-button" value="button">See More</button>
+          </a>
+        </div>
+        <div class="div-box">
+          <img class="div-box-img" src="images/China.jpg" alt="China" />
+          <h3 class="div-box-h3">China</h3>
+          <p class="div-box-p">Costs from $1000</p>
+          <p class="div-box-p">Duration: 5 Days</p>
+          <a href="./countryPages/chinaPage.html">
+            <button class="see-more-button" value="button">See More</button>
+          </a>
+        </div>
+        <div class="div-box">
+          <img class="div-box-img" src="images/Seoul.jpg" alt="Seoul" />
+          <h3 class="div-box-h3">South Korea</h3>
+          <p class="div-box-p">Costs from $1300</p>
+          <p class="div-box-p">Duration: 5 Days</p>
+          <a href="./countryPages/southKoreaPage.html">
+            <button class="see-more-button" value="button">See More</button>
+          </a>
+        </div>
+        <div class="div-box">
+          <img
+            class="div-box-img"
+            src="images/Philipines.jpg"
+            alt="Philipines"
+          />
+          <h3 class="div-box-h3">Philippines</h3>
+          <p class="div-box-p">Costs from $1700</p>
+          <p class="div-box-p">Duration: 5 Days</p>
+          <a href="./countryPages/philipinesPage.html">
+            <button class="see-more-button" value="button">See More</button>
+          </a>
+        </div>
+        <div class="div-box">
+          <img class="div-box-img" src="images/India.jpg" alt="India" />
+          <h3 class="div-box-h3">India</h3>
+          <p class="div-box-p">Costs from $800</p>
+          <p class="div-box-p">Duration: 5 Days</p>
+          <a href="./countryPages/indiaPage.html">
+            <button class="see-more-button" value="button">See More</button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="Quick-Questions" class="questions-section">
+      <h2>Frequently Ask Questions</h2>
+      <div class="display-flex">
+        <div class="question-div2">
+          <h4>Are there any sales?</h4>
+          <p>
+            Yes, you can be our group memeber only for $50 in a month and you
+            can become VIP member.
+          </p>
+        </div>
+        <div class="question-div2">
+          <h4>What about going in a country which requires visa?</h4>
+          <p>
+            3 weeks before a trip we already have a list who is comming and we
+            help our tourists to get everything in time. if you have more
+            questions about this issue <span class="here">HERE</span> is
+            explained everything.
+          </p>
+        </div>
+        <div class="question-div2">
+          <h4>Which airline company works with your agency?</h4>
+          <p>We have an official contract with differnet avia companies.</p>
+        </div>
+        <div class="question-div2">
+          <h4>what kind of hotels does this travel company offer?</h4>
+          <p>
+            We offer our users to stay in 5 star hotels which are all inclusive.
+          </p>
+        </div>
+      </div>
+      <button class="learn-more-button" value="button">Learn More</button>
+    </section>
+    <section id="Opinions" class="users-opinions">
+      <h2>Your words, not ours</h2>
+      <div class="opinions-div">
+        <div>
+          <p>
+            A completly enjoyable excursion, which worked out as expacted. We
+            went out the way...
+          </p>
+          <h5><a href="#">N. Gamkrelidze, 2019</a></h5>
+          <h6>Explored Thailand</h6>
+        </div>
+        <div>
+          <p>
+            Booked this as wanted to see South Korea. Far exceed my
+            expectations...
+          </p>
+          <h5><a href="#">A. Javakhishvili, 2019</a></h5>
+          <h6>Explored South Korea</h6>
+        </div>
+        <div>
+          <p>
+            Booked this as wanted to see South Korea. Far exceed my
+            expectations...
+          </p>
+          <h5><a href="#">A. Javakhishvili, 2019</a></h5>
+          <h6>Explored China</h6>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-contact-div">
+        <h2>Contact Us:</h2>
+        <div class="icon-div">
+          <i class="fas fa-phone-alt displain-inline-block"></i>
+          <a href="tel:+995 32 222 222"> +995 32 222 222</a>
+        </div>
+        <div class="icon-div">
+          <i class="fas fa-envelope displain-inline-block"></i>
+          <a href="mailto:name@rapidtables.com?subject=send your mail"
+            >sandro.sulkhanishvili@gmail.com
+          </a>
+        </div>
+        <div class="icon-div">
+          <i class="fas fa-search-location"></i>
+          <span>10 Gvazauri St, Tbilisi 0193</span>
+        </div>
+        <p class="social-p">follow us:</p>
+        <div class="social-div">
+          <ul class="social-ul">
+            <li class="social-li display-inline-block">
+              <i class="fab fa-facebook-f block-icon icons"></i>
+            </li>
+            <li class="social-li display-inline-block block-icon icons">
+              <i class="fab fa-instagram"></i>
+            </li>
+            <li class="social-li display-inline-block block-icon">
+              <i class="fab fa-twitter icons"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="footer-ul footer-ul1">
+        <li><span class="color-li">Trip by Interest</span></li>
+        <li>All-Inclusive specials</li>
+        <li>Destination wedding specials</li>
+        <li>Family vacation specials</li>
+        <li>Honeymoon specials</li>
+        <li>Couple & Romance specials</li>
+        <li>Golf travel specials</li>
+        <li><a href="#">See More ></a></li>
+      </ul>
+      <ul class="footer-ul footer-ul-2">
+        <li><span class="color-li">Curated Travel Specials</span></li>
+        <li>Cruises</li>
+        <li>Hotels & Resorts</li>
+        <li>Vacation Packages</li>
+        <li>Car Packages</li>
+        <li>Travel Inspiration</li>
+        <li><a href="">View All Specials ></a></li>
+      </ul>
+      <ul class="footer-ul footer-ul-3">
+        <li><span class="color-li">About the Company</span></li>
+        <li>About Us</li>
+        <li>Why Choose Us</li>
+        <li>News Releases</li>
+        <li>Terms & Privacy Policy</li>
+      </ul>
+    </footer>
+  </body>
+</html>
